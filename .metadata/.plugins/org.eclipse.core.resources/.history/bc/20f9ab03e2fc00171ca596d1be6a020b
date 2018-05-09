@@ -1,0 +1,63 @@
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Assignment2Table {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\boraajyo\\Desktop\\SeleniumJar\\BrowserDrivers\\chromedriver.exe");
+		WebDriver drv = new ChromeDriver(); 
+		drv.get("http://www.seleniumeasy.com/test/");
+		drv.manage().window().maximize();
+		drv.findElement(By.linkText("Table")).click();
+		drv.findElement(By.linkText("Table Pagination")).click();
+		int noofpages,i;
+		
+		noofpages = drv.findElements(By.xpath("//ul[@id='myPager']//li")).size();
+		
+		noofpages = noofpages-2;
+		System.out.println("The total no. of Pages are: "+ noofpages);
+		 String first_part = "//tbody[@id='myTable']/tr[";
+		 String second_part = "]/td[";
+		 String third_part = "]";
+		for (i=1;i<=3;i++)
+		{
+			Integer.toString(i);
+			//xpath to click different pages
+			drv.findElement(By.xpath("//ul[@id='myPager']//li//a[text()="+i+"]")).click();
+			WebElement table = drv.findElement(By.xpath("//tbody[@id='myTable']"));
+			List rows = table.findElements(By.xpath("//tbody[@id='myTable']/tr"));
+			List cols = table.findElements(By.xpath("//tbody[@id='myTable']/tr[1]/td"));
+			int row_count = rows.size();
+			int col_count = cols.size();
+			System.out.println(row_count);
+			for (int j = 1;j<=row_count;j++)
+			{
+				for (int k =1;k<=col_count;k++)
+				{
+					String final_xpath = first_part+j+second_part+k+third_part;
+					String Table_data = drv.findElement(By.xpath(final_xpath)).getText();
+					System.out.println("the data for row["+i+"]["+j+"] : "+ Table_data);
+					
+				}
+				
+			}
+		
+			// retrieve no of rows in page
+			//int row = drv.findElements(By.xpath("//tbody[@id='myTable']//tr[@style='display: table-row;']")).size();
+			// retrieve no. of columns
+			//int col = drv.findElements(By.xpath("//thead[@class='btn-primary']/tr/th")).size();
+			
+			//System.out.println("This Page contains "+row+ " rows and "+col+ " columns" );
+			
+		}
+		
+	}
+	
+
+}

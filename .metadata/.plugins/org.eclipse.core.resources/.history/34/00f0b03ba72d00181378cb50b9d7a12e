@@ -1,0 +1,12 @@
+interface AdvancedArithmetic{
+   int divisorSum(int n);
+}
+public class Calculator implements AdvancedArithmetic {
+
+	//@Override
+	public int divisorSum(int n) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

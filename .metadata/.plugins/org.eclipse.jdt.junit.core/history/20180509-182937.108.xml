@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="WebDriverTestCucumber" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="TestRunner.Runner" time="135.271">
+    <testsuite name="Feature: Login Functionality" time="135.271">
+      <testsuite name="Scenario: Create Login Function" time="135.271">
+        <testcase name="Given Enter Username and Password" classname="Scenario: Create Login Function" time="17.0"/>
+        <testcase name="Then Login Successfully" classname="Scenario: Create Login Function" time="7.566"/>
+        <testcase name="Given Create a Deal" classname="Scenario: Create Login Function" time="110.701"/>
+        <testcase name="Given Create a Product" classname="Scenario: Create Login Function" time="0.004"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

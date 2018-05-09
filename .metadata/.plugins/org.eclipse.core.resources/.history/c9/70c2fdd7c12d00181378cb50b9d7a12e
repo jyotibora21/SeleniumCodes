@@ -1,0 +1,27 @@
+
+public class Difference {
+	private int[] elements;
+  	public int maximumDifference;
+  	public int[] arr;
+  	 
+	public Difference( int[] a) {
+		// TODO Auto-generated constructor stub
+		arr= a;
+	}
+
+	int size =arr.length;
+	public void computeDifference() {
+		// TODO Auto-generated method stub
+		for (int i =0;i<size;i++)
+		{
+			elements[i] =Math.abs(arr[i]-arr[i+1]) ;
+		}
+		maximumDifference = elements[0];
+		for(int j =0; j<elements.length;j++)
+		{
+			if (maximumDifference<elements[j])
+				maximumDifference= elements[j];
+		}
+	}
+
+}

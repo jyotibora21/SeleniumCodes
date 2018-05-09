@@ -1,0 +1,10 @@
+package TestRunner;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features="C:\\Users\boraajyo\\Documents\\Wkspc\\WebDriverTestCucumber\\src\\main\\java\\FeatureFile",
+		glue={"StepDefinition"},dryRun=true)
+public class Runner {
+	
+	
+}

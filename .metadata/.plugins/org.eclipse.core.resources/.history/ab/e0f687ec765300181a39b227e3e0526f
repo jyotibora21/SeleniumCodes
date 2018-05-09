@@ -1,0 +1,62 @@
+package StepDefinition;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import junit.framework.Assert;
+
+public class StepDefinition {
+	WebDriver drv;
+	@Given("^Enter Username and Password$")
+	public void enter_Username_and_Password() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\boraajyo\\Desktop\\SeleniumJar\\BrowserDrivers\\chromedriver.exe");
+		drv = new ChromeDriver();
+		drv.get("https://www.crmpro.com/");
+		drv.manage().window().maximize();
+		Thread.sleep(4000);
+	}
+
+	@Then("^Login Successfully$")
+	public void login_Successfully() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   drv.findElement(By.name("username")).sendKeys("jyoti_bora21");
+	   drv.findElement(By.name("password")).sendKeys("Vinod@1989");
+	   drv.findElement(By.xpath("//input[@value='Login']")).click();
+	   Thread.sleep(6000);
+	   //String str = drv.findElement(By.xpath("//td[@class='logo_text']")).getTagName();
+	   
+	  //Assert.assertEquals(str, "CRMPRO");
+	  
+	}
+	@Given("^Create a Deal$")
+	public void CreateDeal() throws Throwable
+	{
+		drv.switchTo().frame("mainpanel");
+		
+
+		drv.findElement(By.xpath("//a[@title='Deals']")).click();
+		drv.findElement(By.xpath("//a[@title='New Deal']")).click();
+		//drv.switchTo().defaultContent();
+		//drv.switchTo().frame("mainpanel");
+		Thread.sleep(5000);
+		drv.findElement(By.xpath("//input[@id='title']")).sendKeys("NewDeal");
+		drv.findElement(By.xpath("//input[@name='client_lookup']")).sendKeys("Tieto");
+		drv.findElement(By.name("contact_lookup")).sendKeys("9637464811");
+		drv.findElement(By.name("amount")).sendKeys("200");
+		drv.findElement(By.name("probability")).sendKeys("10");
+		drv.findElement(By.name("commission")).sendKeys("10");
+		drv.findElement(By.name("quantity")).sendKeys("10");
+		Select selectbyvisibletext1 = new Select(drv.findElement(By.xpath("//select[@name='type'][@size=1]")));
+		selectbyvisibletext1.selectByVisibleText("New");
+		Select selectbyvisibletext2 = new Select(drv.findElement(By.xpath("//select[@name='source'][@size=1]")));
+		selectbyvisibletext2.selectByVisibleText("Online");
+		drv.findElement(By.xpath("//form[@id='prospectForm']//input[@class='button'][@value='Save']")).click();
+		
+	}
+
+}

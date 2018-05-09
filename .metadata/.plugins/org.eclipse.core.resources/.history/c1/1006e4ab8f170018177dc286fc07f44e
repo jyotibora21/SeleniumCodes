@@ -1,0 +1,56 @@
+
+import java.util.ArrayList;
+
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
+
+
+public class Student {
+	
+	public int id;
+		public String name;
+		Student(String stdntname,int stdntid)
+		{
+			this.id = stdntid ;
+			this.name = stdntname ;
+		}
+		public String getstudentname()
+		{
+			return name;
+		}
+		public int getstudentid()
+		{
+			return id;
+		}
+		public static void main(String[] args) {
+			Student Obj1=new Student ("aaa",212);
+			Student Obj2=new Student("aaaaaaaa",213);
+			Student Obj3 = new Student("aaaa",214);
+			Student Obj4=new Student("a",215);
+			Student Obj5 = new Student("aa",216);
+			Student Obj6 = new Student("aaaaaa",217);
+			Student Obj7 = new Student("aaaaa",218);
+			Student Obj8=new Student("aaaaaaa",219);
+			List<Student> std = new ArrayList<Student>();
+			std.add(Obj1);
+			std.add(Obj2);
+			std.add(Obj3);
+			std.add(Obj4);
+			std.add(Obj5);
+			std.add(Obj6);
+			std.add(Obj7);
+			std.add(Obj8);
+			//System.out.println("Unsorted List size : "+std.size());
+			//Iterator<Student> itr=std.iterator();  
+			  //while(itr.hasNext()){  
+			  // System.out.println(itr.next()); 
+			for (Student s: std)
+				System.out.println(s.id +" "+ s.name);
+			
+			  }
+		
+		}
+	
+
+

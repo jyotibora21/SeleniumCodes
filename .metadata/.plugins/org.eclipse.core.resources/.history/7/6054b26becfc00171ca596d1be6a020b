@@ -1,0 +1,54 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Assignment1FormSubmit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\boraajyo\\Desktop\\SeleniumJar\\BrowserDrivers\\chromedriver.exe");
+		WebDriver drv = new ChromeDriver(); 
+		drv.get("http://www.seleniumeasy.com/test/");
+		drv.manage().window().maximize();
+		drv.findElement(By.linkText("Input Forms")).click();
+		drv.findElement(By.linkText("Input Form Submit")).click();
+		if (drv.findElement(By.name("first_name")).isDisplayed())
+			drv.findElement(By.name("first_name")).click();
+		
+		if(drv.findElement(By.name("last_name")).isDisplayed())
+			drv.findElement(By.name("last_name")).click();
+		
+		if (drv.findElement(By.name("email")).isDisplayed())
+			drv.findElement(By.name("email")).click();
+		
+		if (drv.findElement(By.name("phone")).isDisplayed())
+			drv.findElement(By.name("phone")).click();
+				
+		if (drv.findElement(By.name("address")).isDisplayed())
+			drv.findElement(By.name("address")).click();
+		
+		if (drv.findElement(By.name("city")).isDisplayed())
+			drv.findElement(By.name("city")).click();
+		
+		//Selecting value from dropdown State
+		if (drv.findElement(By.xpath("//select[@data-bv-field='state']")).isDisplayed())
+		{
+			WebElement eleselect = drv.findElement(By.xpath("//select[@data-bv-field='state']"));
+			Select state = new Select(eleselect);
+			state.selectByVisibleText("Indiana");
+		}
+		
+		if (drv.findElement(By.name("zip")).isDisplayed())
+			drv.findElement(By.name("zip")).click();
+		
+		if (drv.findElement(By.name("website")).isDisplayed())
+			drv.findElement(By.name("website")).click();
+		
+		if(drv.findElement(By.xpath("//input[@name='hosting'][@value='yes']")).isDisplayed())
+			drv.findElement(By.xpath("//input[@name='hosting'][@value='yes']")).click();
+		
+	}
+
+}

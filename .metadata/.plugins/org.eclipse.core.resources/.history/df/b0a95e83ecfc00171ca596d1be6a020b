@@ -1,0 +1,59 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Assignment1FormSubmit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\boraajyo\\Desktop\\SeleniumJar\\BrowserDrivers\\chromedriver.exe");
+		WebDriver drv = new ChromeDriver(); 
+		drv.get("http://www.seleniumeasy.com/test/");
+		drv.manage().window().maximize();
+		drv.findElement(By.linkText("Input Forms")).click();
+		drv.findElement(By.linkText("Input Form Submit")).click();
+		if (drv.findElement(By.name("first_name")).isDisplayed())
+			drv.findElement(By.name("first_name")).sendKeys("Jyoti");
+		
+		if(drv.findElement(By.name("last_name")).isDisplayed())
+			drv.findElement(By.name("last_name")).sendKeys("Bora");
+		
+		if (drv.findElement(By.name("email")).isDisplayed())
+			drv.findElement(By.name("email")).sendKeys("abc@gmail.com");
+		
+		if (drv.findElement(By.name("phone")).isDisplayed())
+			drv.findElement(By.name("phone")).sendKeys("1234567890");
+				
+		if (drv.findElement(By.name("address")).isDisplayed())
+			drv.findElement(By.name("address")).sendKeys("Pearl Street");
+		
+		if (drv.findElement(By.name("city")).isDisplayed())
+			drv.findElement(By.name("city")).sendKeys("ABC");
+		
+		//Selecting value from dropdown State
+		if (drv.findElement(By.xpath("//select[@data-bv-field='state']")).isDisplayed())
+		{
+			WebElement eleselect = drv.findElement(By.xpath("//select[@data-bv-field='state']"));
+			Select state = new Select(eleselect);
+			state.selectByVisibleText("Indiana");
+		}
+		
+		if (drv.findElement(By.name("zip")).isDisplayed())
+			drv.findElement(By.name("zip")).sendKeys("78901");
+		
+		if (drv.findElement(By.name("website")).isDisplayed())
+			drv.findElement(By.name("website")).sendKeys("linkedin");
+		
+		if(drv.findElement(By.xpath("//input[@name='hosting'][@value='yes']")).isDisplayed())
+			drv.findElement(By.xpath("//input[@name='hosting'][@value='yes']")).click();
+		
+		if (drv.findElement(By.name("comment")).isDisplayed())
+			drv.findElement(By.name("comment")).sendKeys("Test");
+		
+		
+		
+	}
+
+}

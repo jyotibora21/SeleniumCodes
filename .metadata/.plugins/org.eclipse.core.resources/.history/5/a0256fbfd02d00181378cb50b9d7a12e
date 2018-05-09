@@ -1,0 +1,33 @@
+
+public class Difference {
+	private int[] elements;
+  	public int maximumDifference;
+  	public int[] arr;
+  	int co =0;
+  	 
+	public Difference( int[] a) {
+		// TODO Auto-generated constructor stub
+		arr= a;
+	}
+
+	
+	public void computeDifference() {
+		// TODO Auto-generated method stub
+		for (int i =0;i<arr.length;i++)
+		{
+			for(int k=1;k<arr.length;k++)
+			{
+				elements[co] =Math.abs(arr[i]-arr[k]) ;
+				co++;
+				}
+			
+		}
+		maximumDifference = elements[0];
+		for(int j =0; j<elements.length;j++)
+		{
+			if (maximumDifference<elements[j])
+				maximumDifference= elements[j];
+		}
+	}
+
+}

@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class BinaryNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner (System.in);
+		 int num = in.nextInt();
+		 int i=0,count=1;
+		 int [] arr = new int[num];
+		 while(num>1)
+		 {
+			 num=num/2;
+			 arr[i]=num%2;
+			 i++;
+		 }
+		 for (int j=0;j<arr.length;i++)
+		 {
+			 if (arr[i]==1 &&arr[i+1]==1)
+			 {
+				 count++;
+			 }
+			 else
+				 count=1;
+		 }
+		 System.out.println(count);
+	}
+
+}

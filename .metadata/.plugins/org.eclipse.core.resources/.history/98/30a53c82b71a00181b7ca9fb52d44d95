@@ -1,0 +1,26 @@
+package Utility;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+
+public class NewTest {
+	public WebDriver drv;
+  @Test
+  public void f() {
+  }
+  @BeforeMethod
+  public void beforeMethod() {
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\boraajyo\\Desktop\\SeleniumJar\\BrowserDrivers\\chromedriver.exe");
+		WebDriver drv = new ChromeDriver(); 
+		drv.get("https://www.flipkart.com/");
+		drv.manage().window().maximize();
+  }
+
+  @AfterMethod
+  public void afterMethod() {
+  }
+
+}
