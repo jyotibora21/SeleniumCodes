@@ -1,0 +1,19 @@
+Feature: Login Functionality
+Scenario Outline: Create Login Function
+Given Enter Username and Password
+Then Login Successfully
+Given Create a Deal 
+Given Create a Product
+|Name|Cost|Retail Value|Wholesale Price|Product Group|SKU Code|Inventory Amount|
+|Jyoti|10|10|10|abc|asd|120|
+|Jasmine|10|10|10|abc|asd|110|
+
+Given Create a Document Enter <"Title_Name"> and<"Description">
+
+Examples:
+|Title_Name|Description|
+|Jyoti|comment|
+ 
+
+
+

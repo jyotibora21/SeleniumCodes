@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3880" started-at="2018-05-15T13:22:54Z" finished-at="2018-05-15T13:22:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3880" started-at="2018-05-15T13:22:54Z" finished-at="2018-05-15T13:22:58Z">
+      <class name="RestAssuredAPI.GetResponse">
+        <test-method status="PASS" signature="GetResponseCode()[pri:0, instance:RestAssuredAPI.GetResponse@1efef64]" name="GetResponseCode" duration-ms="2951" started-at="2018-05-15T13:22:54Z" finished-at="2018-05-15T13:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetResponseCode -->
+        <test-method status="PASS" signature="GetResponseData()[pri:0, instance:RestAssuredAPI.GetResponse@1efef64]" name="GetResponseData" duration-ms="823" started-at="2018-05-15T13:22:57Z" finished-at="2018-05-15T13:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetResponseData -->
+      </class> <!-- RestAssuredAPI.GetResponse -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

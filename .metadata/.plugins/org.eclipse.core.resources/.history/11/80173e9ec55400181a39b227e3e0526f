@@ -1,0 +1,14 @@
+
+public class StringFunction {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str ="bbaaccaa";
+		String arr[] = str.split("a", -1);
+		for ( String a : arr)
+		{
+			System.out.print(a);
+		}
+	}
+
+}

@@ -57,13 +57,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="SampleJunit.SampleJunit"/>
 			<item value="WebDriverTestCucumber.WebDriverTestCucumber"/>
 			<item value="WebDriverTestCucumber.Sample"/>
 		</list>
 		<list key="groupId">
+			<item value="SampleJunit"/>
 			<item value="WebDriverTestCucumber"/>
 		</list>
 		<list key="artifactId">
+			<item value="SampleJunit"/>
 			<item value="WebDriverTestCucumber"/>
 			<item value="Sample"/>
 		</list>

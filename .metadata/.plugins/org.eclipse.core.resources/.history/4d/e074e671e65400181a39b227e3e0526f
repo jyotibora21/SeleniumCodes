@@ -1,0 +1,46 @@
+package SampleJunit.SampleJunit;
+
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class Class1 {
+
+	@org.junit.Before
+	public void Before()
+	{
+		System.out.println("Before  Executed");
+	}
+	@BeforeClass
+	public void Beforeclass()
+	{
+		System.out.println("Before Class Executed");
+	}
+	@Test
+	public void Test1()
+	{
+		System.out.println("Test1 Executed");
+	}
+	@Test
+	public void Test2()
+	{
+		System.out.println("Test2 Executed");
+	}
+	@Test
+	public void Test3()
+	{
+		System.out.println("Test3 Executed");
+	}
+	@AfterClass
+	public void Afterclass()
+	{
+		System.out.println("After Class Executed");
+	}
+	@org.junit.After
+	
+	public void After()
+	{
+		System.out.println("After  Executed");
+	}
+
+}
