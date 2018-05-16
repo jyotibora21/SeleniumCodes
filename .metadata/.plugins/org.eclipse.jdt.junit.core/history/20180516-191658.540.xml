@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="WebDriverTestCucumber" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="TestRunner.Runner" time="69.66">
+    <testsuite name="Feature: Login Functionality" time="69.66">
+      <testsuite name="Scenario Outline: Create Login Function" time="69.66">
+        <testsuite name="Examples:" time="69.66">
+          <testsuite name="| Jyoti | comment |" time="69.66">
+            <testcase name="Given Enter Username and Password" classname="| Jyoti | comment |" time="13.789"/>
+            <testcase name="Then Login Successfully" classname="| Jyoti | comment |" time="11.064"/>
+            <testcase name="Given Create a Deal" classname="| Jyoti | comment |" time="26.359"/>
+            <testcase name="Given Create a Product" classname="| Jyoti | comment |" time="8.738"/>
+            <testcase name="Given Create a Document Enter &lt;&quot;Title_Name&quot;&gt; and&lt;&quot;Description&quot;&gt;" classname="| Jyoti | comment |" time="9.706"/>
+            <testcase name="Given Create Alert" classname="| Jyoti | comment |" time="0.004"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

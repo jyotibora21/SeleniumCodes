@@ -2141,3 +2141,77 @@ org.apache.maven.archetype.old.ArchetypeTemplateProcessingException: Directory S
 2018-05-15 18:52:49,189 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-05-15 18:52:49,197 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\APIRESTAssured\src\main\resources
 2018-05-15 18:52:49,209 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-15 18:52:49,210 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\APIRESTAssured\src\test\resources
+2018-05-16 12:43:50,647 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 12:43:50,938 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\APIRESTAssured\src\main\resources
+2018-05-16 12:43:51,096 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 12:43:51,096 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\APIRESTAssured\src\test\resources
+2018-05-16 18:03:37,562 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: APIRESTAssured:APIRESTAssured:0.0.1-SNAPSHOT @ C:\Users\boraajyo\Documents\Wkspc\APIRESTAssured\pom.xml.
+2018-05-16 18:03:53,646 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:03:53,647 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\APIRESTAssured\src\main\resources
+2018-05-16 18:03:53,653 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:03:53,653 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\APIRESTAssured\src\test\resources
+2018-05-16 18:04:04,419 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:04:04,420 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\main\resources
+2018-05-16 18:04:04,423 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:04:04,423 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\test\resources
+2018-05-16 18:06:30,909 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:06:30,910 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\main\resources
+2018-05-16 18:06:30,912 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:06:30,913 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\test\resources
+2018-05-16 18:13:16,684 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:13:16,684 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\main\resources
+2018-05-16 18:13:16,687 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:13:16,688 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\test\resources
+2018-05-16 18:13:17,783 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:13:17,783 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\main\resources
+2018-05-16 18:13:17,785 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:13:17,786 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\test\resources
+2018-05-16 18:34:11,496 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:34:11,497 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\main\resources
+2018-05-16 18:34:11,500 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:34:11,501 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\test\resources
+2018-05-16 18:36:28,571 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:36:28,572 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\main\resources
+2018-05-16 18:36:28,574 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:36:28,574 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\test\resources
+2018-05-16 18:50:38,132 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: APIRESTAssured:APIRESTAssured:0.0.1-SNAPSHOT @ C:\Users\boraajyo\Documents\Wkspc\APIRESTAssured\pom.xml.
+2018-05-16 18:50:39,250 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:50:39,250 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\APIRESTAssured\src\main\resources
+2018-05-16 18:50:39,253 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 18:50:39,253 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\APIRESTAssured\src\test\resources
+2018-05-16 19:04:01,128 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:04:01,129 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\main\resources
+2018-05-16 19:04:01,131 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:04:01,132 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\test\resources
+2018-05-16 19:04:44,206 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:04:44,206 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\main\resources
+2018-05-16 19:04:44,209 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:04:44,209 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\test\resources
+2018-05-16 19:09:23,465 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:09:23,466 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\main\resources
+2018-05-16 19:09:23,469 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:09:23,469 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\test\resources
+2018-05-16 19:11:37,830 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:11:37,830 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\main\resources
+2018-05-16 19:11:37,833 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:11:37,834 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\test\resources
+2018-05-16 19:11:56,513 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:11:56,513 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\main\resources
+2018-05-16 19:11:56,516 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:11:56,516 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\test\resources
+2018-05-16 19:13:09,640 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:13:09,640 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\main\resources
+2018-05-16 19:13:09,643 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:13:09,643 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\test\resources
+2018-05-16 19:16:52,034 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:16:52,034 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\main\resources
+2018-05-16 19:16:52,037 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:16:52,038 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\test\resources
+2018-05-16 19:20:35,788 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:20:35,789 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\main\resources
+2018-05-16 19:20:35,791 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:20:35,792 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\test\resources
+2018-05-16 19:23:41,398 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-16 19:23:41,399 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\src\main\resources
+2018-05-16 19:23:41,401 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

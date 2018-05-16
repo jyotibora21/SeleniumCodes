@@ -1,0 +1,24 @@
+
+public class trycatchblock {
+
+	public static int trycatch()
+	{
+		try
+		{
+			return 0;
+		}
+		catch(Exception e)
+		{
+			return 1;
+		}
+		finally{
+			return 2;
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		trycatch();
+		
+	}
+
+}
