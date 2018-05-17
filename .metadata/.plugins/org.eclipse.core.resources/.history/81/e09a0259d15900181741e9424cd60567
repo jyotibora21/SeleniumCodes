@@ -1,0 +1,23 @@
+Feature: Login Functionality
+Scenario Outline: Create Login Function
+Given Enter Username and Password
+Then Login Successfully
+#Then Take Login Screenshot 
+#Given Create a Deal 
+#Given Create a Product
+#|Name|Inventory Amount|
+#|Jyoti|abc|
+#|Jasmine|abc|
+
+Given Create a Document Enter <"Title_Name"> and<"Description">
+
+#Given Create Alert
+
+
+Examples:
+|Title_Name|Description|
+|Jyoti|comment|
+ 
+
+
+

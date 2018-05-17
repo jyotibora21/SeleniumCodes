@@ -1,5 +1,0 @@
-package TestRunner;
-
-public @interface CucumberOptions {
-
-}
