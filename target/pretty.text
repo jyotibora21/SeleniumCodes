@@ -1,0 +1,53 @@
+#@selenium
+Feature: Login Functionality
+
+  Scenario: Create Login Function                                                                                            # featurefile.feature:3
+    Given Enter Username and Password                                                                                        # StepDefinition.enter_Username_and_Password()
+    Then Login Successfully                                                                                                  # StepDefinition.login_Successfully()
+    #Then Take Login Screenshot
+    #Given Create a Deal
+    #Given Create a Product
+    #|Name|Inventory Amount|
+    #|Jyoti|abc|
+    #|Jasmine|abc|
+    #Given Create a Document Enter <"Title_Name"> and<"Description">
+    #Given Create a Task
+    When Task are Fetched from Excel "C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\target\ExcelFile\NewTask.xlsx" # StepDefinition.task_are_Fetched_from_Excel(DataTable)
+      java.lang.ClassCastException: gherkin.formatter.model.Comment cannot be cast to java.util.List
+      	at ExcelDatatoDataTable.ExcelDatatoTable.transform(ExcelDatatoTable.java:36)
+      	at ExcelDatatoDataTable.ExcelDatatoTable.transform(ExcelDatatoTable.java:1)
+      	at cucumber.api.Transformer.fromString(Transformer.java:91)
+      	at cucumber.runtime.ParameterInfo.convert(ParameterInfo.java:164)
+      	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:68)
+      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+      	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+      	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+      	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+      	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+      	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+      	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+      	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+      	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+      	at ✽.When Task are Fetched from Excel "C:\Users\boraajyo\Documents\Wkspc\WebDriverTestCucumber\target\ExcelFile\NewTask.xlsx"(featurefile.feature:16)
+

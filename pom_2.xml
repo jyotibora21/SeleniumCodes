@@ -23,6 +23,31 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.9</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>2.47.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.9.10</version>
+			<scope>test</scope>
+		</dependency>
 
 		<dependency>
 			<groupId>info.cukes</groupId>
@@ -54,35 +79,31 @@
 			<artifactId>cucumber-jvm-deps</artifactId>
 			<version>1.0.5</version>
 		</dependency>
-		
 		<dependency>
-		   <groupId>org.apache.poi</groupId>
-		   <artifactId>poi</artifactId>
-		   <version>3.9</version>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.9</version>
 		</dependency>
 		<dependency>
-		   <groupId>xml-apis</groupId>
-		   <artifactId>xml-apis</artifactId>
-		   <version>1.4.01</version>
+			<groupId>xml-apis</groupId>
+			<artifactId>xml-apis</artifactId>
+			<version>1.4.01</version>
 		</dependency>
 		<dependency>
-		   <groupId>org.apache.poi</groupId>
-		   <artifactId>poi-ooxml</artifactId>
-		   <version>3.9</version>
-		   <exclusions>
-		     <exclusion>
-		       <artifactId>xml-apis</artifactId>
-		       <groupId>xml-apis</groupId>
-		     </exclusion>       
-		   </exclusions>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.9</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>xml-apis</artifactId>
+					<groupId>xml-apis</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
-		<dependency>
-   		 	<groupId>info.cukes</groupId>
-    		<artifactId>cucumber-spring</artifactId>
-   		 	<version>1.2.5</version>
-   	 		<scope>test</scope>
-		</dependency>
-		
+
 	</dependencies>
+
+
+
 
 </project>
